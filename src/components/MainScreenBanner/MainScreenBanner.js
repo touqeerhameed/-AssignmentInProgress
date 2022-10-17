@@ -1,4 +1,5 @@
 import React from 'react';
+import { HEADING, SUBHEADING } from '../../constants/constants';
 import CustomInput from '../CustomInput/CustomInput';
 import SearchButton from '../SearchButton/SearchButton';
 import './style.css';
@@ -17,11 +18,11 @@ export default function MainScreenBanner() {
                 </div>
                 <div className='main-banner-heading-container'>
                     <h1 className='main-banner-heading'>
-                        Rethink your living & renting
+                        {HEADING}
                     </h1>
                 </div>
                 <div className='main-banner-secondary-heading-container'>
-                    <h4 className='main-banner-secondary-heading'>Make your stay painless with us</h4>
+                    <h4 className='main-banner-secondary-heading'>{SUBHEADING}</h4>
                 </div>
                 <div className='center-container'>
                     <div className='search-container width-container'>
