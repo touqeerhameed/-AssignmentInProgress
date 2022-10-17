@@ -37,8 +37,22 @@
     justify-content: space-around;
     margin-top: 56px;
 }
-@media (max-width:500px){
+@media (max-width:600px){
     .card-group{
         flex-direction: column;
     }
 }
+
+@media (max-width:858px) and (min-width:700px){
+    .card-group{
+        flex-direction: column;
+        margin-left: 150px;
+    }
+    .logo1{
+        margin-left: 270px;
+    }
+    .register{
+        margin-left: 180px;
+    }
+}
+
